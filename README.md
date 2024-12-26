@@ -5,8 +5,16 @@
 ## Установка 
 - требуется Python 3
 - У вас должна быть установлена библиотека pygame
-## Правила 
-Их нет!
+```bash
+git clone 
+python3 -m pip install pygame
+python3 -m venv path/to/venv
+source path/to/venv/bin/activate
+python3 -m pip install pygame
+python3 'play module.py'
+```
+## Правила
+Для победы в игре требуеться разбить все блоки на поле с помощью платформы и мяча
 ## Управление 
 - Для управления платформой используйте клавиши стрелок влево и вправо
 - при проигрыше следуйте указаниям на экране 
